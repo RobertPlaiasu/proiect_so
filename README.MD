@@ -1,7 +1,7 @@
 # Poveste realizare proiect
 
 Pentru realizarea acestui proiect a fost nevoie sa cercetez o perioada destul de indelugata pe google pentru a realiza complet cerintele, de aceea o sa apara o bibliografie la final in care voi pune mai multe link-uri de unde am utilizat materiale.
-Proiectul este public pe github: https://github.com/RobertPlaiasu/proiect_so
+Proiectul este public pe github: https://github.com/RobertPlaiasu/proiect_so .
 Initial am realiat meniul in care se afiseaza optiunele din care utilizatorul poate alege.
 Dupa am realizat primul script numit script_1 in care citesc numele fisierului si 2 string-uri, primul este cel ce vreau sa-l inlocuiesc, iar al doilea este string-ul care va il va inlocui pe primul. N-am stiut daca atunci cand eu fac schimbarea trebuie sa si salvez modificarea in fisier, in momentul actual afiseaza doar pe ecran modificarea. Daca doresc a schimba si fisierul trebuie doar > $file pentru a redirectiona output-ul comenzii in fisierul initial pentru al mmodifica.
 Al doilea script, creaza un fisier ce afiseaza mesajul "It Works",  am creat o functie separata ce are numele ca parametru fisierul si creaza continutul acestuia, iar in script_2 am pastrat validari in cazul in care fisierul exista deja daca vreau sa-l inlocuiesc sau nu.
