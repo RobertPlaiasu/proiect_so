@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Plaiasu Robert Constantin si Popescu Ruxandra Nicoleta - grupa 1008
+
 # afisare meniu
 meniu()
 {
