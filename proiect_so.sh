@@ -114,7 +114,7 @@ script_4()
     echo "Introduce numele utilizatorului:"
     read username
     # verifica daca utilizatorul exista deja
-    if [ `sed -n "/^$username/p" /etc/passwd` ]; then
+    if [[ ! `sed -n "/^$username/p" /etc/passwd` ]]; then
         echo "Utilizatorul $username nu exista."
         return 0
     fi
